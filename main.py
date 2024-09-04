@@ -5,9 +5,9 @@ from plankapy import *
 def main():
     # Planka API-Instanz erstellen
     planka_instance = Planka(
-        url='http://localhost:3000',
-        username='demo',
-        password='demo'
+        url='http://141.45.212.242:9000',
+        username='demo1',
+        password='demo1'
     )
     
     # Project Controller erstellen
