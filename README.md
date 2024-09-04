@@ -1,14 +1,15 @@
-## Brute force protection
+# plankapy
+A python 3 based API for controlling a self-hosted Planka instance
 
-For settings, see:
-- Snap: `wekan.help | grep lockout`
-- Docker: Search lockout from docker-compose.yml at https://github.com/wekan/wekan
+[Docs](https://hwelch-fle.github.io/plankapy/plankapy.html)
 
-[Removing lockout from users](https://github.com/wekan/wekan/issues/3306)
+# Rest API Source
 
-For UCS, it's UCS VM and inside it Docker container. You just ssh your ucs VM like this, with same username password you used when installin UCS and administering UCS apps, su to root:
-```
-ssh Administrator@192.168.0.100
-su
-```
-And then use those Docker commands https://github.com/wekan/wekan/issues/3306#issuecomment-712743002
+## Routes
+https://github.com/plankanban/planka/blob/master/server/config/routes.js
+
+## Models
+https://github.com/plankanban/planka/tree/master/server/api/models
+
+## Helpers
+https://github.com/plankanban/planka/tree/master/server/api/helpers
